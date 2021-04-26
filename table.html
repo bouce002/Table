@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>CAMPING COSTS</title>
+    <style>    
+            body {
+                Font-Family: 'Work Sans', Sans-Serif;
+               
+                Font-Size: 29px; 
+
+            }
+            td[ scope="blue"] {
+                background-color:#106ebe;
+                color :#FFFFFF;
+                text-align: center;
+              
+            }
+            h4 {
+                color:lightgray;
+            }
+            td[scope="green"][colspan="3"], td[ scope="green"] {
+                background-color:#057a28;
+                color :#FFFFFF;
+                text-align: right;
+                }
+            td[ scope="number"] {
+                text-align: center;
+            
+}
+            td[scope="gray"]{
+                background-color: rgb(235, 235, 235);
+            }
+            td[scope="number"][scope="gray"]{
+            background-color: rgb(216, 216, 216);
+            }
+    </style>
+    </head>
+    <body>
+        <h4>CAMPING COSTS</h4>
+        <table border="0"> 
+            <tr>
+                <td scope="blue">Item</td>
+                <td scope="blue">Quantity</td>
+                <td scope="blue">Price</td>
+                <td scope="blue">Total</td>
+            </tr>
+            <tr>
+                <td>Tent</td>
+                <td scope="number">1</td>
+                <td>$279.00</td>
+                <td>$279.00</td>
+            </tr>
+            <tr>
+                <td scope="gray">Sleeping Bags</td>
+                <td scope="number", scope="gray">2</td>
+                <td scope="gray">$159.95</td>
+                <td scope="gray">$319.00</td>
+            </tr>
+            <tr> 
+                <td>Camp Chairs</td>
+                <td scope="number">2</td>
+                <td>$39.50</td>
+                <td>$79.00</td>
+            </tr>
+            <tr>
+                <td scope="green", colspan="3">Grand Total</td>
+                <td scope="green">$667.90</td>
+            </tr>
+        </table>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
+    </body>
+</html>
